@@ -61,7 +61,7 @@ class _MyAppState extends State<MyApp> {
                     fontSize: 16.0,
                   ),
                 ),
-                FlatButton(
+                ElevatedButton(
                   child: Text("Can make payments?"),
                   onPressed: () async {
                     try {
@@ -76,7 +76,7 @@ class _MyAppState extends State<MyApp> {
                     }
                   },
                 ),
-                FlatButton(
+                ElevatedButton(
                   child: Text("Can make payments with verified card: $result"),
                   onPressed: () async {
                     try {
@@ -97,7 +97,7 @@ class _MyAppState extends State<MyApp> {
                     }
                   },
                 ),
-                FlatButton(
+                ElevatedButton(
                     child: Text("Try to pay?"),
                     onPressed: () {
                       makePayment();

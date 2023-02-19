@@ -1,6 +1,6 @@
 name: flutter_pay
 description: Flutter plugin that help you make payments through Apple and Google Pay
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/xamelon/flutter_pay
 
 environment:
